@@ -55,16 +55,36 @@ table {
   height: 100vh;
   background:
     radial-gradient(
+      farthest-side,
       #225073,
       #010006
     );
 }
 
 .home {
+  display: flex;
+  flex-direction: column;
   width: 100vw;
   height: 100vh;
   background: #010006;
+  color: white;
+  line-height: 20px;
+  font-family: sans-serif;
+  font-weight: 200;
+  font-size: 14px;
+  letter-spacing: .2rem;
 }
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-self: center;
+  width: 80vw;
+  align-items: center;
+  min-height: 150px;
+  flex-wrap: wrap;
+}
+
 
 .tooth {
   width: 90px;
@@ -77,13 +97,43 @@ table {
   height: auto;
 }
 
+.header-logo {
+  height: 150px;
+}
+
 .enter {
   width: 100px;
   height: 50px;
   align-self: center;
-  background: url(./enter.png) center no-repeat;
+  background: url(./assets/enter.png) center no-repeat;
   background-size: contain;
   border: none;
+}
+
+.address {
+  text-align: center;
+}
+
+.home-grid {
+  align-self: center;
+  width: 80vw;
+}
+
+.dr {
+  margin-left: 30px;
+  margin-bottom: 20px;
+}
+
+.box {
+  height: 170px;
+  width: 300px;
+  border: 1px solid white;
+  background:
+  radial-gradient(
+    circle farthest-side,
+    #173750,
+    #010006
+  );
 }
 
 .column {
@@ -96,4 +146,9 @@ table {
 .row {
   display: flex;
   align-items: center;
+}
+
+.grid {
+  justify-content: space-between;
+  margin-bottom: 20px;
 }
