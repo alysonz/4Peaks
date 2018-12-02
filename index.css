@@ -60,6 +60,12 @@ table {
     );
 }
 
+.home {
+  width: 100vw;
+  height: 100vh;
+  background: #010006;
+}
+
 .tooth {
   width: 90px;
   height: auto;
