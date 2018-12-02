@@ -1,0 +1,26 @@
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background:
+    radial-gradient(
+      #173750,
+      #010006
+    );
+}
+
+.logo {
+  height: 300px;
+}
+
+.enter {
+  width: 100px;
+  align-self: center;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
