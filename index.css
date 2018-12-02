@@ -55,7 +55,6 @@ table {
   height: 100vh;
   background:
     radial-gradient(
-      farthest-side,
       #225073,
       #010006
     );
